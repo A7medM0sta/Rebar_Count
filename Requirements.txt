@@ -1,0 +1,16 @@
+torch==2.4.0
+torchvision==0.19.0
+pycocotools
+os
+shutil
+requests
+zipfile
+xml
+opencv-python
+numpy
+sys
+time
+random
+matplotlib
+torchsummary
+collections
