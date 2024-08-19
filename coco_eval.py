@@ -1,4 +1,3 @@
-
 import json
 import tempfile
 
@@ -10,13 +9,10 @@ import torch
 from pycocotools.cocoeval import COCOeval
 from pycocotools.coco import COCO
 import pycocotools.mask as mask_util
-
 from collections import defaultdict
-
 import utils
 
 string_classes = str
-
 class CocoEvaluator(object):
     def __init__(self, coco_gt, iou_types):
         assert isinstance(iou_types, (list, tuple))
