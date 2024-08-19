@@ -31,10 +31,10 @@ class DatasetDownloader:
                 os.remove("./v0.6.0.zip")
 
             if os.path.exists(self.dataset_path):
-                print("Download code and datasets success")
+                print("Download datasets success")
             else:
                 print(
-                    "Download code and datasets failed, please check the download url is valid or not."
+                    "Download datasets failed, please check the download url is valid or not."
                 )
         else:
             print(f"{self.dataset_path} already exists")
