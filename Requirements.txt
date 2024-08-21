@@ -7,3 +7,4 @@ numpy==1.21.2
 matplotlib==3.4.3
 torchsummary==1.5.1
 gradio==2.2.15
+pytest==6.2.5
