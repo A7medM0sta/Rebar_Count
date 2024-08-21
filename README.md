@@ -10,29 +10,39 @@ The project directory is organized as follows:
 
 Rebar_Count/
 │
-├── coco_eval.py                 # Evaluation script using COCO metrics
-├── coco_utils.py                # Utility functions for COCO evaluation
-├── Data/                        # Directory containing input data scripts
-│   └── import_data.py           # Script to import data
-├── steps_for_results/                        # Directory containing demo images
-│   ├── 1.png                    # Example input image 1
-│   ├── 2.png                    # Example input image 2
-│   ├── 3.png                    # Example input image 3
-│   └── 4.png                    # Example input image 4
-├── engine.py                    # Script for running the detection engine
-├── gradio.py                    # Script for building a Gradio interface for the model
-├── README.md                    # Project documentation
-├── Rebar_Count.ipynb            # Jupyter notebook for model development and experimentation
-├── Requirements.txt             # List of required Python libraries
-├── Results/                     # Directory containing result images
-│   ├── Unknown.png              # Output result image 1
-│   ├── Unknown_2.png            # Output result image 2
-│   ├── Unknown_3.png            # Output result image 3
-│   └── Unknown_4.png            # Output result image 4
-├── tests/                       # Directory containing test images
-│   └── 0C006B5C.jpg             # Example test image
-├── transforms.py                # Script for handling image transformations
-└── utils.py                     # Utility functions for the project
+├── notebooks/                    # Jupyter notebooks for experimentation and development
+│   └── Rebar_Count.ipynb
+│
+├── src/                          # Source code for the project
+│   ├── __init__.py               # Initialize the src module
+│   ├── engine.py                 # Main engine for running the detection model
+│   ├── gradio_app.py             # Gradio interface for the model
+│   ├── transforms.py             # Image transformation functions
+│   ├── utils.py                  # General utility functions
+│   ├── evaluation/               # Scripts for evaluation metrics
+│   │   ├── coco_eval.py          # COCO evaluation script
+│   │   └── coco_utils.py         # Utility functions for COCO evaluation
+│   └── data/                     # Data-related scripts
+│       └── import_data.py        # Script to import data
+│
+├── data/                         # Directory for data (images, datasets, etc.)
+│   ├── demo/                     # Demo images for testing
+│   │   ├── 1.png
+│   │   ├── 2.png
+│   │   ├── 3.png
+│   │   └── 4.png
+│   └── tests/                    # Test images for validation
+│       └── 0C006B5C.jpg
+│
+├── results/                      # Directory to store model output (results)
+│   ├── Unknown.png
+│   ├── Unknown_2.png
+│   ├── Unknown_3.png
+│   └── Unknown_4.png
+│
+├── requirements.txt              # Python dependencies
+├── README.md                     # Project documentation
+└── LICENSE                       # License file (if applicable)
 
 ```
 
@@ -55,7 +65,7 @@ The key dependencies include:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/Rebar_Count.git
+   git clone https://github.com//Rebar_Count.git
    ```
 
 2. Navigate to the project directory:
