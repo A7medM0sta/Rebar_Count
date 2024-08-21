@@ -1,7 +1,7 @@
 # Rebar Count
 
 ## Overview
-Rebar Count is a computer vision project designed to detect and count rebar in construction images. The project leverages FRCNN-based models and uses Python for data processing, evaluation, and deployment. The output images show the detected rebar with bounding boxes and the total count.
+Rebar Count is a computer vision project designed to detect and count rebar in construction images. The project leverages Faster R-CNN based models and uses Python for data processing, evaluation, and deployment. The output images show the detected rebar with bounding boxes and the total count.
 
 ## Project Structure
 The project directory is organized as follows:
@@ -56,7 +56,7 @@ pip install -r Requirements.txt
 The key dependencies include:
 
 - PyTorch
-- YOLOv5
+- Faster R-CNN
 - OpenCV
 - Gradio
 
@@ -65,7 +65,7 @@ The key dependencies include:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com//Rebar_Count.git
+   git https://github.com/A7medM0sta/Rebar_Count.git
    ```
 
 2. Navigate to the project directory:
@@ -90,13 +90,7 @@ To explore and test the model, open the `Rebar_Count.ipynb` notebook in Jupyter:
 jupyter notebook Rebar_Count.ipynb
 ```
 
-### Running the Detection Engine
 
-You can run the detection engine on your images by executing the `engine.py` script:
-
-```bash
-python engine.py --input_path /path/to/your/images --output_path /path/to/save/results
-```
 
 ### Gradio Interface
 
@@ -107,30 +101,31 @@ python gradio.py
 ```
 
 ## Results
-
 The results from running the model are saved in the `Results/` directory. Each image is processed and saved with detected rebar highlighted by bounding boxes and the count displayed.
+# some key results are shown below:
+<p align="center">
+  <img src="data/demo/1.png" alt="Image 1" width="200"/>
+  <img src="data/demo/2.png" alt="Image 2" width="200"/>
+  <img src="data/demo/3.png" alt="Image 3" width="200"/>
+  <img src="data/demo/4.png" alt="Image 4" width="200"/>
+</p>
+
+
+Here are the demo images used for testing:
+
+<p align="center">
+  <img src="results/Unknown.png" alt="Image 1" width="200"/>
+  <img src="results/Unknown_2.png" alt="Image 2" width="200"/>
+  <img src="results/Unknown_3.png" alt="Image 3" width="200"/>
+  <img src="results/Unknown_2.png" alt="Image 4" width="200"/>
+</p>
+
 
 ## Testing
-
-To test the model on sample images, place your images in the `tests/` directory and run the detection engine as described above.
+To test the model on sample images, place your images in the gradio up just upload your image
 
 ## Future Work
 
 - Improving the accuracy of rebar detection by experimenting with different models and techniques.
 - Expanding the project to detect other construction materials and objects.
 - Optimizing the Gradio interface for better user experience.
-
-## Contributing
-
-If you would like to contribute to this project, please open a pull request or create an issue to discuss your ideas.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
-```
-
-### Notes:
-1. **Repository URL:** Replace `https://github.com/yourusername/Rebar_Count.git` with your actual GitHub repository link.
-2. **Future Work:** Modify or add more details based on your project goals.
-3. **Contributing and License:** If these sections are relevant to your project, feel free to keep them. If not, you can remove them.
