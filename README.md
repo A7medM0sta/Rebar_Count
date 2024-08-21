@@ -7,7 +7,6 @@ Rebar Count is a computer vision project designed to detect and count rebar in c
 The project directory is organized as follows:
 
 ```
-
 Rebar_Count/
 │
 ├── notebooks/                    
@@ -39,6 +38,10 @@ Rebar_Count/
 │   ├── Unknown_2.png
 │   ├── Unknown_3.png
 │   └── Unknown_4.png
+├── unit_test/                      
+│   ├── __init__.py
+│   ├── test_model.py
+│   ├── test_transforms.py
 │
 ├── requirements.txt              
 ├── README.md                     
