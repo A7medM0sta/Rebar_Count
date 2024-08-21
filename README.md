@@ -105,12 +105,23 @@ The results from running the model are saved in the `Results/` directory. Each i
 ### some key results are shown below:
 
 <p align="center">
-  <img src="data/demo/1.png" alt="Image 1" width="200"/><br/><b>Figure 1</b>
-  <img src="data/demo/2.png" alt="Image 2" width="200"/><br/><b>Figure 2</b>
-  <img src="data/demo/3.png" alt="Image 3" width="200"/><br/><b>Figure 3</b>
-  <img src="data/demo/4.png" alt="Image 4" width="200"/><br/><b>Figure 4</b>
+  <figure>
+    <figcaption>Step 1</figcaption>
+    <img src="data/demo/1.png" alt="Image 1" width="200"/>
+  </figure>
+  <figure>
+    <figcaption>Step 2</figcaption>
+    <img src="data/demo/2.png" alt="Image 2" width="200"/>
+  </figure>
+  <figure>
+    <figcaption>Step 3</figcaption>
+    <img src="data/demo/3.png" alt="Image 3" width="200"/>
+  </figure>
+  <figure>
+    <figcaption>Step 4</figcaption>
+    <img src="data/demo/4.png" alt="Image 4" width="200"/>
+  </figure>
 </p>
-
 
 Here are the demo images used for testing:
 
