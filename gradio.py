@@ -8,7 +8,6 @@ import cv2
 import gradio as gr
 import unittest
 
-
 class ModelLoader:
     """
     A class used to load the model for rebar detection.
