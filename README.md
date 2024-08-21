@@ -102,12 +102,13 @@ python gradio.py
 
 ## Results
 The results from running the model are saved in the `Results/` directory. Each image is processed and saved with detected rebar highlighted by bounding boxes and the count displayed.
-# some key results are shown below:
+### some key results are shown below:
+
 <p align="center">
-  <img src="data/demo/1.png" alt="Image 1" width="200"/>
-  <img src="data/demo/2.png" alt="Image 2" width="200"/>
-  <img src="data/demo/3.png" alt="Image 3" width="200"/>
-  <img src="data/demo/4.png" alt="Image 4" width="200"/>
+  <img src="data/demo/1.png" alt="Image 1" width="200"/><br/><b>Figure 1</b>
+  <img src="data/demo/2.png" alt="Image 2" width="200"/><br/><b>Figure 2</b>
+  <img src="data/demo/3.png" alt="Image 3" width="200"/><br/><b>Figure 3</b>
+  <img src="data/demo/4.png" alt="Image 4" width="200"/><br/><b>Figure 4</b>
 </p>
 
 
