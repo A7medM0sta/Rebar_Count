@@ -10,39 +10,39 @@ The project directory is organized as follows:
 
 Rebar_Count/
 │
-├── notebooks/                    # Jupyter notebooks for experimentation and development
+├── notebooks/                    
 │   └── Rebar_Count.ipynb
 │
-├── src/                          # Source code for the project
-│   ├── __init__.py               # Initialize the src module
-│   ├── engine.py                 # Main engine for running the detection model
-│   ├── gradio_app.py             # Gradio interface for the model
-│   ├── transforms.py             # Image transformation functions
-│   ├── utils.py                  # General utility functions
-│   ├── evaluation/               # Scripts for evaluation metrics
-│   │   ├── coco_eval.py          # COCO evaluation script
-│   │   └── coco_utils.py         # Utility functions for COCO evaluation
-│   └── data/                     # Data-related scripts
-│       └── import_data.py        # Script to import data
+├── src/                         
+│   ├── __init__.py               
+│   ├── engine.py                 
+│   ├── gradio_app.py             
+│   ├── transforms.py             
+│   ├── utils.py                  
+│   ├── evaluation/               
+│   │   ├── coco_eval.py          
+│   │   └── coco_utils.py         
+│   └── data/                     
+│       └── import_data.py       
 │
-├── data/                         # Directory for data (images, datasets, etc.)
-│   ├── demo/                     # Demo images for testing
+├── data/                         
+│   ├── demo/                     
 │   │   ├── 1.png
 │   │   ├── 2.png
 │   │   ├── 3.png
 │   │   └── 4.png
-│   └── tests/                    # Test images for validation
+│   └── tests/                    
 │       └── 0C006B5C.jpg
 │
-├── results/                      # Directory to store model output (results)
+├── results/                      
 │   ├── Unknown.png
 │   ├── Unknown_2.png
 │   ├── Unknown_3.png
 │   └── Unknown_4.png
 │
-├── requirements.txt              # Python dependencies
-├── README.md                     # Project documentation
-└── LICENSE                       # License file (if applicable)
+├── requirements.txt              
+├── README.md                     
+└── LICENSE                       
 
 ```
 
