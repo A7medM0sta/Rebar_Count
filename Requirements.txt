@@ -8,3 +8,5 @@ matplotlib==3.4.3
 torchsummary==1.5.1
 gradio==2.2.15
 pytest==6.2.5
+notebook==1.0.0
+jupyterlab==3.2.0
