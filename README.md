@@ -107,19 +107,19 @@ The results from running the model are saved in the `Results/` directory. Each i
 <p align="center">
   <figure>
     <figcaption>Step 1</figcaption>
-    <img src="data/demo/1.png" alt="Image 1" width="200"/>
+    <img src="data/demo/1.png" alt="Image 1" width="500"/>
   </figure>
   <figure>
     <figcaption>Step 2</figcaption>
-    <img src="data/demo/2.png" alt="Image 2" width="200"/>
+    <img src="data/demo/2.png" alt="Image 2" width="500"/>
   </figure>
   <figure>
     <figcaption>Step 3</figcaption>
-    <img src="data/demo/3.png" alt="Image 3" width="200"/>
+    <img src="data/demo/3.png" alt="Image 3" width="500"/>
   </figure>
   <figure>
     <figcaption>Step 4</figcaption>
-    <img src="data/demo/4.png" alt="Image 4" width="200"/>
+    <img src="data/demo/4.png" alt="Image 4" width="500"/>
   </figure>
 </p>
 
